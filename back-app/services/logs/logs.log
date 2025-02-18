@@ -1,0 +1,1710 @@
+{
+  "instant" : {
+    "epochSecond" : 1739840636,
+    "nanoOfSecond" : 780642400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Starting ServicesApplication using Java 17.0.5 with PID 22492 (C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services\\target\\classes started by fazeyna in C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840637,
+    "nanoOfSecond" : 13550900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840638,
+    "nanoOfSecond" : 749233900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840639,
+    "nanoOfSecond" : 140759600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 374 ms. Found 1 JPA repository interface.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840639,
+    "nanoOfSecond" : 703529900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=78172fbf-2960-39d4-afc0-17e806a4c9e8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840640,
+    "nanoOfSecond" : 980202000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 16280800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 22016300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 28324100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.34]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 174348800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 180861800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 4086 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 726720500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840641,
+    "nanoOfSecond" : 895866700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.6.5.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840642,
+    "nanoOfSecond" : 7041700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.cache.internal.RegionFactoryInitiator",
+  "message" : "HHH000026: Second-level cache disabled",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840642,
+    "nanoOfSecond" : 789746500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840642,
+    "nanoOfSecond" : 893709200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840643,
+    "nanoOfSecond" : 696564900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cab07dd",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840643,
+    "nanoOfSecond" : 700892100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840643,
+    "nanoOfSecond" : 792103600
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840643,
+    "nanoOfSecond" : 794070600
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840643,
+    "nanoOfSecond" : 881645400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.orm.connections.pooling",
+  "message" : "HHH10001005: Database info:\n\tDatabase JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']\n\tDatabase driver: undefined/unknown\n\tDatabase version: 8.0\n\tAutocommit mode: undefined/unknown\n\tIsolation level: undefined/unknown\n\tMinimum pool size: undefined/unknown\n\tMaximum pool size: undefined/unknown",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.ConnectionInfoLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840645,
+    "nanoOfSecond" : 907270600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840646,
+    "nanoOfSecond" : 9689700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840646,
+    "nanoOfSecond" : 571507100
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840648,
+    "nanoOfSecond" : 836503200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses RestTemplate.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840648,
+    "nanoOfSecond" : 953525000
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 48034300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 160872200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 174767700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 204499600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Disable delta property : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 205556500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Single vip registry refresh property : null",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 205556500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Force full registry fetch : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 206577600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application is null : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 207652100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Registered Applications size is zero : true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 207652100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application version is -1: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 208802400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Getting all instance registry info from the eureka server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 930233900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "The response status is 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 936585400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Starting heartbeat executor: renew interval is: 30",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 941056400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.InstanceInfoReplicator",
+  "message" : "InstanceInfoReplicator onDemand update allowed rate per min is 4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 944749000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1739840649943 with initial instances count: 1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 953572700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application SERVICES with eureka with status UP",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 956560300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Saw local status change event StatusChangeEvent [timestamp=1739840649955, current=UP, previous=STARTING]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 959837900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840649,
+    "nanoOfSecond" : 960929600
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services: registering service...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840650,
+    "nanoOfSecond" : 19439600
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services - registration status: 204",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840650,
+    "nanoOfSecond" : 21458100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port 8080 (http) with context path '/'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840650,
+    "nanoOfSecond" : 24234000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8080",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840650,
+    "nanoOfSecond" : 733592800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Started ServicesApplication in 15.737 seconds (process running for 19.253)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840739,
+    "nanoOfSecond" : 99554800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Unregistering application SERVICES with eureka with status DOWN",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840739,
+    "nanoOfSecond" : 101691600
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Saw local status change event StatusChangeEvent [timestamp=1739840739101, current=DOWN, previous=UP]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840739,
+    "nanoOfSecond" : 102757200
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services: registering service...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840739,
+    "nanoOfSecond" : 108206900
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.GracefulShutdown",
+  "message" : "Commencing graceful shutdown. Waiting for active requests to complete",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840739,
+    "nanoOfSecond" : 113811300
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services - registration status: 204",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840741,
+    "nanoOfSecond" : 261593800
+  },
+  "thread" : "tomcat-shutdown",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.GracefulShutdown",
+  "message" : "Graceful shutdown complete",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 49,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840741,
+    "nanoOfSecond" : 279253900
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840741,
+    "nanoOfSecond" : 294599500
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840741,
+    "nanoOfSecond" : 426904600
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840741,
+    "nanoOfSecond" : 430213000
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Shutting down DiscoveryClient ...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840744,
+    "nanoOfSecond" : 436579900
+  },
+  "thread" : "DiscoveryClient-%d",
+  "level" : "WARN",
+  "loggerName" : "com.netflix.discovery.TimedSupervisorTask",
+  "message" : "task supervisor shutting down, can't accept the task",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 30,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840744,
+    "nanoOfSecond" : 436579900
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Unregistering ...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840744,
+    "nanoOfSecond" : 446135800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services - deregister  status: 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840744,
+    "nanoOfSecond" : 447129400
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Completed shut down of DiscoveryClient",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840827,
+    "nanoOfSecond" : 552741800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Starting ServicesApplication using Java 17.0.5 with PID 2160 (C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services\\target\\classes started by fazeyna in C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840827,
+    "nanoOfSecond" : 838816500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840830,
+    "nanoOfSecond" : 211911500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840830,
+    "nanoOfSecond" : 836905000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 594 ms. Found 1 JPA repository interface.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840831,
+    "nanoOfSecond" : 646166000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=78172fbf-2960-39d4-afc0-17e806a4c9e8",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 48885400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port 8082 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 95803900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8082\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 95803900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 106313500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.34]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 333387000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 359160500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 5396 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840833,
+    "nanoOfSecond" : 915370400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840834,
+    "nanoOfSecond" : 95794200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.6.5.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840834,
+    "nanoOfSecond" : 279540200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.cache.internal.RegionFactoryInitiator",
+  "message" : "HHH000026: Second-level cache disabled",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840835,
+    "nanoOfSecond" : 232884300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840835,
+    "nanoOfSecond" : 340856500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840836,
+    "nanoOfSecond" : 253947000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef1fc8a",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840836,
+    "nanoOfSecond" : 259048600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840836,
+    "nanoOfSecond" : 385864900
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840836,
+    "nanoOfSecond" : 390126900
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840836,
+    "nanoOfSecond" : 509780300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.orm.connections.pooling",
+  "message" : "HHH10001005: Database info:\n\tDatabase JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']\n\tDatabase driver: undefined/unknown\n\tDatabase version: 8.0\n\tAutocommit mode: undefined/unknown\n\tIsolation level: undefined/unknown\n\tMinimum pool size: undefined/unknown\n\tMaximum pool size: undefined/unknown",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.ConnectionInfoLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840839,
+    "nanoOfSecond" : 167635500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840839,
+    "nanoOfSecond" : 285720600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840839,
+    "nanoOfSecond" : 873659200
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 322232300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses RestTemplate.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 403163600
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 519091900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 603767600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 620871800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 655952100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Disable delta property : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 656469200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Single vip registry refresh property : null",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 657484500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Force full registry fetch : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 658482400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application is null : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 659482500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Registered Applications size is zero : true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 660716600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application version is -1: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840842,
+    "nanoOfSecond" : 662058300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Getting all instance registry info from the eureka server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 472679900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "The response status is 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 477672600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Starting heartbeat executor: renew interval is: 30",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 482676800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.InstanceInfoReplicator",
+  "message" : "InstanceInfoReplicator onDemand update allowed rate per min is 4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 512539000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1739840843489 with initial instances count: 1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 524830100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application SERVICES with eureka with status UP",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 525857900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Saw local status change event StatusChangeEvent [timestamp=1739840843525, current=UP, previous=STARTING]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 528916200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8082\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 529932300
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services:8082: registering service...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 573488000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port 8082 (http) with context path '/'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 575953800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8082",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840843,
+    "nanoOfSecond" : 592733200
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services:8082 - registration status: 204",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 32,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840844,
+    "nanoOfSecond" : 278932800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Started ServicesApplication in 19.483 seconds (process running for 24.96)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840938,
+    "nanoOfSecond" : 237136700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840938,
+    "nanoOfSecond" : 237136700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739840938,
+    "nanoOfSecond" : 237136700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739841145,
+    "nanoOfSecond" : 336158800
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}

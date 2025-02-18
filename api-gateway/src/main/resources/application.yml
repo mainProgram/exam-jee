@@ -1,0 +1,78 @@
+#spring.security.oauth2:
+#  resourceserver:
+#    jwt:
+#      jwk-set-uri: http://localhost:8081/realms/demo/protocol/openid-connect/certs
+#  client:
+#    provider:
+#      keycloak:
+#        issuer-uri: http://localhost:8081/realms/demo
+#    registration:
+#      spring-with-test-scope:
+#        provider: keycloak
+#        client-id: spring-with-test-scope
+#        client-secret: IWLSnakHG8aNTWNaWuSj0a11UY4lzxd9
+#        authorization-grant-type: authorization_code
+#        scope: openid
+spring:
+  application:
+    name: api-gateway
+  main:
+    web-application-type: REACTIVE
+    allow-bean-definition-overriding: true
+  cloud:
+    discovery:
+      enabled: true
+    config:
+      enabled: false
+    gateway:
+#      default-filters:
+#        - TokenRelay=
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: etudiants
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1/etudiants/**
+          metadata:
+            cors:
+              allowedOrigins: '*'
+              allowedMethods:
+                - GET
+                - POST
+                - PUT
+                - DELETE
+                - OPTIONS
+              allowedHeaders: '*'
+              maxAge: 30
+        - id: professeurs
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1/professeurs/**
+          metadata:
+            cors:
+              allowedOrigins: '*'
+              allowedMethods:
+                - GET
+                - POST
+                - PUT
+                - DELETE
+                - OPTIONS
+              allowedHeaders: '*'
+              maxAge: 30
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        security: DEBUG
+
+server:
+  port: 8090

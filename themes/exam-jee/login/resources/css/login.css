@@ -1,0 +1,813 @@
+/* Angular Material Purple-Green Theme for Keycloak
+   Based on existing theme structure with Angular Material colors */
+
+   :root {
+    --primary: #7b1fa2;         /* Purple 500 */
+    --primary-light: #ae52d4;   /* Purple 300 */
+    --primary-dark: #4a0072;    /* Purple 700 */
+    --accent: #69f0ae;          /* Green A200 */
+    --accent-light: #9fffe0;    /* Green A100 */
+    --accent-dark: #2bbd7e;     /* Green A400 */
+    --text-on-dark: #ffffff;
+    --text-on-light: rgba(0, 0, 0, 0.87);
+    --error: #f44336;
+    --background: #303030;      /* Dark background */
+    --card-background: #424242;
+    --border-color: rgba(255, 255, 255, 0.12);
+    --disabled: rgba(255, 255, 255, 0.3);
+}
+
+/* Patternfly CSS overrides */
+.login-pf {
+    background: none;
+}
+
+.login-pf body {
+    background: var(--background);
+    background-size: cover;
+    height: 100%;
+    color: var(--text-on-dark);
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+textarea.pf-c-form-control {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-on-dark);
+    border: 1px solid var(--border-color);
+}
+
+.pf-c-alert__title {
+    font-size: var(--pf-global--FontSize--xs);
+}
+
+p.instruction {
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.pf-c-button.pf-m-control {
+    border-color: var(--border-color);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-on-dark);
+}
+
+h1#kc-page-title {
+    margin-top: 10px;
+    color: var(--text-on-dark);
+}
+
+/* Locale selector */
+#kc-locale ul {
+    background-color: var(--card-background);
+    display: none;
+    top: 20px;
+    min-width: 100px;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#kc-locale-dropdown {
+    display: inline-block;
+}
+
+#kc-locale-dropdown:hover ul {
+    display: block;
+}
+
+#kc-locale-dropdown a {
+    color: var(--text-on-dark);
+    text-align: right;
+    font-size: var(--pf-global--FontSize--sm);
+    padding: 8px 12px;
+    display: block;
+}
+
+#kc-locale-dropdown a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#kc-locale-dropdown button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--accent);
+    text-align: right;
+    font-size: var(--pf-global--FontSize--sm);
+}
+
+button#kc-current-locale-link::after {
+    content: "\2c5";
+    margin-left: var(--pf-global--spacer--xs);
+}
+
+/* Container */
+.login-pf .container {
+    padding-top: 40px;
+}
+
+.login-pf a:hover {
+    color: var(--accent-light);
+}
+
+/* Logo */
+#kc-logo {
+    width: 100%;
+}
+
+div.kc-logo-text {
+    background-image: url(../img/keycloak-logo-text.png);
+    background-repeat: no-repeat;
+    filter: brightness(0.9) hue-rotate(260deg);
+    height: 63px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+div.kc-logo-text span {
+    display: none;
+}
+
+/* Header */
+#kc-header {
+    color: var(--primary-light);
+    overflow: visible;
+    white-space: nowrap;
+}
+
+#kc-header-wrapper {
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.2em;
+    padding: 62px 10px 20px;
+    white-space: normal;
+    color: var(--primary-light);
+}
+
+/* Content */
+#kc-content {
+    width: 100%;
+}
+
+#kc-attempted-username {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: normal;
+    padding-right: 10px;
+}
+
+#kc-username {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+/* WebAuthn */
+#kc-webauthn-settings-form {
+    padding-top: 8px;
+}
+
+#kc-form-webauthn .select-auth-box-parent {
+    pointer-events: none;
+}
+
+#kc-form-webauthn .select-auth-box-desc {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#kc-form-webauthn .select-auth-box-headline {
+    color: var(--primary-light);
+}
+
+#kc-form-webauthn .select-auth-box-icon {
+    flex: 0 0 3em;
+}
+
+#kc-form-webauthn .select-auth-box-icon-properties {
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: var(--accent);
+}
+
+#kc-form-webauthn .select-auth-box-icon-properties.unknown-transport-class {
+    margin-top: 3px;
+}
+
+#kc-form-webauthn .pf-l-stack__item {
+    margin: -1px 0;
+}
+
+/* Content wrappers */
+#kc-content-wrapper {
+    margin-top: 20px;
+}
+
+#kc-form-wrapper {
+    margin-top: 10px;
+}
+
+#kc-info {
+    margin: 20px -40px -30px;
+}
+
+#kc-info-wrapper {
+    font-size: 13px;
+    padding: 15px 35px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Form options */
+#kc-form-options span {
+    display: block;
+}
+
+#kc-form-options .checkbox {
+    margin-top: 0;
+    color: var(--text-on-dark);
+}
+
+/* Terms */
+#kc-terms-text {
+    margin-bottom: 20px;
+}
+
+#kc-registration-terms-text {
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+#kc-registration {
+    margin-bottom: 0;
+}
+
+/* TOTP */
+.subtitle {
+    text-align: right;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.required {
+    color: var(--error);
+}
+
+ol#kc-totp-settings {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul#kc-totp-supported-apps {
+    margin-bottom: 10px;
+}
+
+#kc-totp-secret-qr-code {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 5px;
+    background: white;
+    border-radius: 4px;
+}
+
+#kc-totp-secret-key {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-on-dark);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* OAuth */
+#kc-oauth h3 {
+    margin-top: 0;
+    color: var(--primary-light);
+}
+
+#kc-oauth ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#kc-oauth ul li {
+    border-top: 1px solid var(--border-color);
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+#kc-oauth ul li:first-of-type {
+    border-top: 0;
+}
+
+#kc-oauth .kc-role {
+    display: inline-block;
+    width: 50%;
+}
+
+/* Code */
+#kc-code textarea {
+    width: 100%;
+    height: 8em;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-on-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+/* Social */
+.kc-social-links {
+    margin-top: 20px;
+}
+
+.kc-social-links li {
+    width: 100%;
+}
+
+.kc-social-provider-logo {
+    font-size: 23px;
+    width: 30px;
+    height: 25px;
+    float: left;
+    color: var(--accent);
+}
+
+.kc-social-gray {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.kc-social-gray h2 {
+    font-size: 1em;
+}
+
+.kc-social-item {
+    margin-bottom: var(--pf-global--spacer--sm);
+    font-size: 15px;
+    text-align: center;
+}
+
+.kc-social-provider-name {
+    position: relative;
+}
+
+.kc-social-icon-text {
+    left: -15px;
+}
+
+.kc-social-grid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-column-end: span 6;
+    --pf-l-grid__item--GridColumnEnd: span 6;
+}
+
+.kc-social-grid .kc-social-icon-text {
+    left: -10px;
+}
+
+/* Tooltip */
+.kc-login-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.kc-social-section {
+    text-align: center;
+}
+
+.kc-social-section hr {
+    margin-bottom: 10px;
+    border-color: var(--border-color);
+}
+
+.kc-login-tooltip .kc-tooltip-text {
+    top: -3px;
+    left: 160%;
+    background-color: var(--card-background);
+    color: var(--text-on-dark);
+    min-width: 130px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+    border: 1px solid var(--border-color);
+}
+
+/* Show tooltip */
+.kc-login-tooltip:hover .kc-tooltip-text {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+/* Arrow for tooltip */
+.kc-login-tooltip .kc-tooltip-text::after {
+    content: " ";
+    position: absolute;
+    top: 15px;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent var(--card-background) transparent transparent;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+    #kc-container-wrapper {
+        position: absolute;
+        width: 100%;
+    }
+
+    .login-pf .container {
+        padding-right: 80px;
+    }
+
+    #kc-locale {
+        position: relative;
+        text-align: right;
+        z-index: 9999;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-pf body {
+        background: var(--background);
+    }
+
+    #kc-header {
+        padding-left: 15px;
+        padding-right: 15px;
+        float: none;
+        text-align: left;
+    }
+
+    #kc-header-wrapper {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 60px 0 0;
+        color: var(--primary-light);
+        letter-spacing: 0;
+    }
+
+    div.kc-logo-text {
+        margin: 0;
+        width: 150px;
+        height: 32px;
+        background-size: 100%;
+    }
+
+    #kc-form {
+        float: none;
+    }
+
+    #kc-info-wrapper {
+        border-top: 1px solid var(--border-color);
+        background-color: transparent;
+    }
+
+    .login-pf .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #kc-locale {
+        position: absolute;
+        width: 200px;
+        top: 20px;
+        right: 20px;
+        text-align: right;
+        z-index: 9999;
+    }
+}
+
+@media (min-height: 646px) {
+    #kc-container-wrapper {
+        bottom: 12%;
+    }
+}
+
+@media (max-height: 645px) {
+    #kc-container-wrapper {
+        padding-top: 50px;
+        top: 20%;
+    }
+}
+
+/* Card and buttons */
+.card-pf form.form-actions .btn {
+    float: right;
+    margin-left: 10px;
+}
+
+#kc-form-buttons {
+    margin-top: 20px;
+}
+
+.login-pf-page .login-pf-brand {
+    margin-top: 20px;
+    max-width: 360px;
+    width: 40%;
+}
+
+/* Auth box */
+.select-auth-box-arrow {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    color: var(--accent);
+}
+
+.select-auth-box-icon {
+    display: flex;
+    flex: 0 0 2em;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 3rem;
+    color: var(--accent);
+}
+
+.select-auth-box-parent {
+    border-top: 1px solid var(--border-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    text-align: left;
+    align-items: unset;
+    background-color: unset;
+    border-right: unset;
+    border-bottom: unset;
+    border-left: unset;
+}
+
+.select-auth-box-parent:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.select-auth-container {
+    padding-bottom: 0px !important;
+}
+
+.select-auth-box-headline {
+    font-size: var(--pf-global--FontSize--md);
+    color: var(--primary-light);
+    font-weight: bold;
+}
+
+.select-auth-box-desc {
+    font-size: var(--pf-global--FontSize--sm);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.select-auth-box-paragraph {
+    text-align: center;
+    font-size: var(--pf-global--FontSize--md);
+    margin-bottom: 5px;
+    color: var(--text-on-dark);
+}
+
+/* Card styling */
+.card-pf {
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 0 20px;
+    max-width: 500px;
+    border-top: 4px solid;
+    border-color: var(--primary);
+    background-color: var(--card-background);
+    color: var(--text-on-dark);
+}
+
+/* Responsive card */
+@media (max-width: 767px) {
+    .login-pf-page .card-pf {
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+        border-top: 0;
+        box-shadow: 0 0;
+        background-color: transparent;
+    }
+
+    .kc-social-grid {
+        grid-column-end: 12;
+        --pf-l-grid__item--GridColumnEnd: span 12;
+    }
+
+    .kc-social-grid .kc-social-icon-text {
+        left: -15px;
+    }
+}
+
+/* Signup */
+.login-pf-page .login-pf-signup {
+    font-size: 15px;
+    color: var(--text-on-dark);
+}
+
+#kc-content-wrapper .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-pf-page.login-pf-page-accounts {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+.login-pf-page .btn-primary {
+    margin-top: 0;
+    background-color: var(--primary);
+    border: none;
+    color: var(--text-on-dark);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.login-pf-page .btn-primary:hover, 
+.login-pf-page .btn-primary:focus {
+    background-color: var(--primary-light);
+}
+
+.btn-default {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-on-dark);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.btn-default:hover, 
+.btn-default:focus {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Lists */
+.login-pf-page .list-view-pf .list-group-item {
+    border-bottom: 1px solid var(--border-color);
+    background-color: transparent;
+}
+
+.login-pf-page .list-view-pf-description {
+    width: 100%;
+}
+
+/* Form groups */
+#kc-form-login div.form-group:last-of-type,
+#kc-register-form div.form-group:last-of-type,
+#kc-update-profile-form div.form-group:last-of-type,
+#kc-update-email-form div.form-group:last-of-type {
+    margin-bottom: 0px;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+#kc-back {
+    margin-top: 5px;
+}
+
+/* Form inputs */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+    color: var(--text-on-dark);
+    padding: 8px 0;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: var(--accent);
+    box-shadow: none;
+}
+
+/* Recovery codes */
+.kc-recovery-codes-warning {
+    margin-bottom: 32px;
+}
+
+.kc-recovery-codes-warning .pf-c-alert__description p {
+    font-size: 0.875rem;
+}
+
+.kc-recovery-codes-list {
+    list-style: none;
+    columns: 2;
+    margin: 16px 0;
+    padding: 16px 16px 8px 16px;
+    border: 1px solid var(--border-color);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+.kc-recovery-codes-list li {
+    margin-bottom: 8px;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.kc-recovery-codes-list li span {
+    color: var(--accent);
+    width: 16px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.kc-recovery-codes-actions {
+    margin-bottom: 24px;
+}
+
+.kc-recovery-codes-actions button {
+    padding-left: 0;
+    color: var(--accent);
+    background: transparent;
+    border: none;
+}
+
+.kc-recovery-codes-actions button:hover {
+    color: var(--accent-light);
+    text-decoration: underline;
+}
+
+.kc-recovery-codes-actions button i {
+    margin-right: 8px;
+}
+
+.kc-recovery-codes-confirmation {
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+#certificate_subjectDN {
+    overflow-wrap: break-word;
+}
+
+/* Alerts */
+.alert {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border-left-width: 3px;
+}
+
+.alert-error {
+    border-color: var(--error);
+    color: #ef9a9a;
+}
+
+.alert-warning {
+    border-color: #ff9800;
+    color: #ffcc80;
+}
+
+.alert-success {
+    border-color: var(--accent);
+    color: var(--accent-light);
+}
+
+.alert-info {
+    border-color: #2196f3;
+    color: #90caf9;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    accent-color: var(--accent);
+}
+
+/* Override background color */
+.login-pf body {
+    background: var(--background);
+    background-size: cover;
+    height: 100%;
+}
+
+#kc-login {
+    background: var(--primary) !important; 
+}
+
+#kc-login:hover {
+    background: var(--primary-light) !important; 
+}

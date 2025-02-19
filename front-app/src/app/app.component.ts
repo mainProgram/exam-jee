@@ -1,5 +1,8 @@
-import { Component } from '@angular/core';
+import {Component, DestroyRef, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {UserIdleService} from 'angular-user-idle';
+import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
+import {AuthenticationService} from './core/services/authentication.service';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +11,30 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'front-app';
+export class AppComponent implements OnInit {
+  title = 'Front-App';
+  private destroyRef!: DestroyRef;
+
+  constructor(
+    private readonly authenticationService: AuthenticationService,
+    private readonly userIdleService: UserIdleService,
+  ) {}
+
+  ngOnInit(): void {
+    if (this.authenticationService.isLoggedIn()) {
+      this.userIdleService.startWatching();
+      this.userIdleService
+        .onTimerStart()
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe();
+      this.userIdleService
+        .onTimeout()
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe(() => {
+          alert('Your session has timed out. Please log in again.');
+          this.authenticationService.logout();
+          this.userIdleService.resetTimer();
+        });
+    }
+  }
 }

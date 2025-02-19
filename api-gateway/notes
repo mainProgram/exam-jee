@@ -1,0 +1,1 @@
+docker run -d --name keycloak -p 8081:8080 -v keycloak_data:/opt/keycloak/data -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -v C:/Users/fazeyna/Desktop/COURS_ISI_M2/JEE/exam-jee/themes:/opt/keycloak/themes quay.io/keycloak/keycloak:23.0.7 start-dev --spi-theme-static-max-age=-1 --spi-theme-cache-themes=false --spi-theme-cache-templates=false

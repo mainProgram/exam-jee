@@ -8094,3 +8094,108 @@
   "threadPriority" : 5,
   "service" : "exam-jee"
 }
+{
+  "instant" : {
+    "epochSecond" : 1739930225,
+    "nanoOfSecond" : 127059600
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739930525,
+    "nanoOfSecond" : 146414900
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739930825,
+    "nanoOfSecond" : 162074400
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739931125,
+    "nanoOfSecond" : 170779200
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739931425,
+    "nanoOfSecond" : 186855900
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739931725,
+    "nanoOfSecond" : 189087700
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739932025,
+    "nanoOfSecond" : 209893000
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 48,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}

@@ -1,11 +1,20 @@
-<div class="content">
-  <span class="title">Main page</span>
+<div class="welcome-container">
+  <mat-card>
+    <mat-card-header class="center-title">
+      <mat-card-title>Bienvenue sur School-App</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Explorez le menu pour gérer vos étudiants, professeurs, classes et matières. Nous sommes là pour simplifier votre travail !
+      </p>
+      <button
+        *ngIf="!isLoggedIn"
+        mat-raised-button
+        color="primary"
+        (click)="redirectToLoginPage()"
+      >
+        Se connecter
+      </button>
+    </mat-card-content>
+  </mat-card>
 </div>
-<a
-  *ngIf="!isLoggedIn"
-  role="button"
-  class="button"
-  (click)="redirectToLoginPage()"
->
-  Log In
-</a>

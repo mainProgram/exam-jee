@@ -1,12 +1,19 @@
 import { Component } from '@angular/core';
 import {NgIf} from '@angular/common';
 import {AuthenticationService} from '../../core/services/authentication.service';
+import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-main-page',
   standalone: true,
   imports: [
-    NgIf
+    NgIf,
+    MatCardHeader,
+    MatCardContent,
+    MatCardTitle,
+    MatCard,
+    MatButtonModule
   ],
   templateUrl: './main-page.component.html',
   styleUrl: './main-page.component.css'

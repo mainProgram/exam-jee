@@ -12,8 +12,9 @@
     --text-on-light: rgba(0, 0, 0, 0.87);
     --error: #f44336;
     --background: #303030;      /* Dark background */
+    --background2:rgb(133, 131, 131);      /* Dark background */
     --card-background: #424242;
-    --border-color: rgba(255, 255, 255, 0.12);
+    --border-color:rgba(123, 31, 162, 0.46);
     --disabled: rgba(255, 255, 255, 0.3);
 }
 
@@ -47,9 +48,9 @@ p.instruction {
 }
 
 .pf-c-button.pf-m-control {
-    border-color: var(--border-color);
+    border-color: var(--primary);
     background-color: rgba(255, 255, 255, 0.05);
-    color: var(--text-on-dark);
+    color: var(--primary);
 }
 
 h1#kc-page-title {
@@ -584,7 +585,7 @@ ul#kc-totp-supported-apps {
     max-width: 500px;
     border-top: 4px solid;
     border-color: var(--primary);
-    background-color: var(--card-background);
+    background-color: var(--background2);
     color: var(--text-on-dark);
 }
 

@@ -1,16 +1,16 @@
 spring.security.oauth2:
   resourceserver:
     jwt:
-      jwk-set-uri: http://localhost:8081/realms/exam-jee/protocol/openid-connect/certs
+      jwk-set-uri: http://localhost:8081/realms/master/protocol/openid-connect/certs
   client:
     provider:
       keycloak:
-        issuer-uri: http://localhost:8081/realms/exam-jee
+        issuer-uri: http://localhost:8081/realms/master
     registration:
       spring-with-test-scope:
         provider: keycloak
-        client-id: spring-with-test-scope
-        client-secret: IWLSnakHG8aNTWNaWuSj0a11UY4lzxd9
+        client-id: spring-exam-jee
+        client-secret: 0iNVd44KAslXIFZSrYjD7XCO6Fp46zcj
         authorization-grant-type: authorization_code
         scope: openid
 spring:

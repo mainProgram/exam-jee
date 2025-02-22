@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping(path = "api/user")
+@RequestMapping(path = "api/users")
 public class KeycloakController {
 
     KeycloakService service;

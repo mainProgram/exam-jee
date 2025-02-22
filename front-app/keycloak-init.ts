@@ -11,10 +11,10 @@ export const initializeKeycloak = (keycloak: KeycloakService) => async () =>
         loadUserProfileAtStartUp: true,
         initOptions: {
           flow: "implicit",
-            onLoad: 'check-sso',
-            silentCheckSsoRedirectUri:
-                window.location.origin + '/assets/silent-check-sso.html',
-            checkLoginIframe: false,
-            redirectUri: environment.keycloak.redirectUri,
-        }
+          onLoad: 'check-sso',
+          silentCheckSsoRedirectUri:
+              window.location.origin + '/assets/silent-check-sso.html',
+          checkLoginIframe: false
+        },
+      bearerExcludedUrls: ['/assets'],
     });

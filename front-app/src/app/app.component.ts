@@ -23,8 +23,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     if (this.authenticationService.isLoggedIn()) {
       this.userIdleService.startWatching();
-      console.log(this.authenticationService.userName)
-      console.log(this.authenticationService.isLoggedIn())
       this.userIdleService
         .onTimerStart()
         .pipe(takeUntilDestroyed(this.destroyRef))

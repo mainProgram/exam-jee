@@ -78,7 +78,7 @@ public class EtudiantService {
         etudiantRepository.save(etudiant);
     }
 
-    private void validateEmailUniqueness(String email, String excludeId) {
+    public void validateEmailUniqueness(String email, String excludeId) {
         Optional<EtudiantEntity> existingEtudiant = etudiantRepository.findByEmail(email);
         if (existingEtudiant.isPresent() &&
                 (excludeId == null || !existingEtudiant.get().getId().equals(excludeId))) {

@@ -1,13 +1,16 @@
 import {Component, DestroyRef, OnInit} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {UserIdleService} from 'angular-user-idle';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 import {AuthenticationService} from './core/services/authentication.service';
+import {MatAnchor} from '@angular/material/button';
+import {MatToolbar} from '@angular/material/toolbar';
+import {NgIf} from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, MatAnchor, MatToolbar, NgIf, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -20,6 +23,9 @@ export class AppComponent implements OnInit {
     private destroyRef: DestroyRef
   ) {}
 
+  get isLoggedIn(): boolean {
+    return this.authenticationService.isLoggedIn();
+  }
   ngOnInit(): void {
     if (this.authenticationService.isLoggedIn()) {
       this.userIdleService.startWatching();

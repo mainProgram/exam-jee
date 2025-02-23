@@ -3,7 +3,7 @@ export const environment = {
     keycloak: {
         authority: 'http://localhost:8081',
         redirectUri: 'http://localhost:4200',
-        postLogoutRedirectUri: 'http://localhost:4200/logout',
+        postLogoutRedirectUri: 'http://localhost:4200',
         realm: 'master',
         clientId: 'spring-exam-jee',
     },

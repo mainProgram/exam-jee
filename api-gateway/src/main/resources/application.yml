@@ -2,17 +2,7 @@ spring.security.oauth2:
   resourceserver:
     jwt:
       jwk-set-uri: http://localhost:8081/realms/master/protocol/openid-connect/certs
-  client:
-    provider:
-      keycloak:
-        issuer-uri: http://localhost:8081/realms/master
-    registration:
-      spring-with-test-scope:
-        provider: keycloak
-        client-id: spring-exam-jee
-        client-secret: 0iNVd44KAslXIFZSrYjD7XCO6Fp46zcj
-        authorization-grant-type: authorization_code
-        scope: openid
+
 spring:
   application:
     name: api-gateway
@@ -25,8 +15,8 @@ spring:
     config:
       enabled: false
     gateway:
-#      default-filters:
-#        - TokenRelay=
+      default-filters:
+        - TokenRelay=
       discovery:
         locator:
           enabled: true
@@ -35,32 +25,17 @@ spring:
           uri: http://localhost:8082
           predicates:
             - Path=/api/v1/etudiants/**
-          metadata:
-            cors:
-              allowedOrigins: '*'
-              allowedMethods:
-                - GET
-                - POST
-                - PUT
-                - DELETE
-                - OPTIONS
-              allowedHeaders: '*'
-              maxAge: 30
         - id: professeurs
           uri: http://localhost:8082
           predicates:
             - Path=/api/v1/professeurs/**
-          metadata:
-            cors:
-              allowedOrigins: '*'
-              allowedMethods:
-                - GET
-                - POST
-                - PUT
-                - DELETE
-                - OPTIONS
-              allowedHeaders: '*'
-              maxAge: 30
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods: GET, POST, PUT, DELETE, OPTIONS
+            allowedHeaders: "*"
+            allowCredentials: true
 eureka:
   instance:
     prefer-ip-address: true
@@ -73,6 +48,7 @@ logging:
     org:
       springframework:
         security: DEBUG
+        web.cors.reactive: TRACE
 
 server:
   port: 8090

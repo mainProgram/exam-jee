@@ -1,1 +1,9 @@
+<mat-toolbar color="primary" *ngIf="isLoggedIn">
+  <span routerLink="/">Settings-App</span>
+  <span class="spacer"></span>
+  <nav>
+    <a mat-button routerLink="/etudiants" routerLinkActive="active-link">Etudiants</a>
+    <!--      <a mat-button routerLink="/produits" routerLinkActive="active-link">Professeurs</a>-->
+  </nav>
+</mat-toolbar>
 <router-outlet></router-outlet>

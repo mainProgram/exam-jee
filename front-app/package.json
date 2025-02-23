@@ -23,6 +23,7 @@
     "@angular/router": "^18.2.0",
     "@ng-idle/core": "^16.0.0",
     "angular-user-idle": "^4.0.0",
+    "bootstrap": "^5.3.3",
     "keycloak-angular": "^15.3.0",
     "keycloak-js": "^22.0.5",
     "rxjs": "~7.8.0",

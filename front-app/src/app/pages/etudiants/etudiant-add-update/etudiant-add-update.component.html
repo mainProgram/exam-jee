@@ -1,0 +1,62 @@
+<mat-toolbar color="primary">
+  <b><span>{{ data ? 'Modifier le produit' : 'Nouveau produit' }}</span></b>
+  <span class="spacer"></span>
+</mat-toolbar>
+<div mat-dialog-content class="content d-flex justify-content-center">
+  <form [formGroup]="form">
+    <p class="mt-3 text-center" style="color: red" *ngIf="errorMessage">{{errorMessage}}</p>
+    <div class="form-group row mt-3">
+      <div class="col">
+        <mat-form-field class="w-100">
+          <mat-label>Prénom</mat-label>
+          <input matInput formControlName="lastName">
+          <mat-error *ngIf="form.get('lastName')?.hasError('required')">Ce champ est requis.</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field class="w-100">
+          <mat-label>Nom</mat-label>
+          <input matInput formControlName="firstname">
+          <mat-error *ngIf="form.get('firstname')?.hasError('required')">Ce champ est requis.</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col">
+        <mat-form-field class="w-100">
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="emailId">
+          <mat-error *ngIf="form.get('emailId')?.hasError('required')">Ce champ est requis.</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field class="w-100">
+          <mat-label>Téléphone</mat-label>
+          <input matInput formControlName="phoneNumber">
+          <mat-error *ngIf="form.get('phoneNumber')?.hasError('required')">Ce champ est requis.</mat-error>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col">
+        <mat-label>Adresse</mat-label>
+        <textarea formControlName="address" class="form-control"></textarea>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div mat-dialog-actions style="display: flex; justify-content: end; padding: 10px; gap: 10px; margin-right: 10px">
+  <button mat-raised-button mat-dialog-close color="accent" *ngIf="!isLoading">Fermer</button>
+  <button
+    mat-raised-button color="primary" type="submit"
+    [disabled]="form.invalid"
+    (click)="onSubmit()"
+  >
+    <ng-container *ngIf="isLoading; else submitTemplate">
+      <mat-spinner diameter="20" mode="indeterminate"></mat-spinner>
+    </ng-container>
+    <ng-template #submitTemplate>Valider</ng-template>
+  </button>
+</div>
+

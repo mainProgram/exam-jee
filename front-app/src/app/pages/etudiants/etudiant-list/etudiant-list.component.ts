@@ -10,8 +10,8 @@ import {
   MatRowDef, MatTable, MatTableDataSource
 } from '@angular/material/table';
 import {MatFormField, MatLabel} from '@angular/material/form-field';
-import {MatIcon} from '@angular/material/icon';
-import {MatButton, MatMiniFabButton} from '@angular/material/button';
+import {MatIcon, MatIconModule} from '@angular/material/icon';
+import {MatButton, MatButtonModule, MatMiniFabButton} from '@angular/material/button';
 import {FormatStatusPipe} from '../../../shared/pipes/format-status.pipe';
 import {MatToolbar} from '@angular/material/toolbar';
 import {MatInput} from '@angular/material/input';
@@ -24,6 +24,9 @@ import {LoaderService} from '../../../core/services/loader.service';
 import {finalize, take} from 'rxjs';
 import {CommonModule} from '@angular/common';
 import {MatCard} from '@angular/material/card';
+import Swal from 'sweetalert2';
+import {EtudiantAddUpdateComponent} from '../etudiant-add-update/etudiant-add-update.component';
+import {Etudiant} from '../../../core/models/EtudiantModel';
 
 @Component({
   selector: 'app-etudiant-list',
@@ -36,6 +39,8 @@ import {MatCard} from '@angular/material/card';
     MatColumnDef,
     MatFormField,
     MatIcon,
+    MatIconModule,
+    MatButtonModule,
     MatButton,
     MatRow,
     MatHeaderRowDef,
@@ -54,7 +59,7 @@ import {MatCard} from '@angular/material/card';
   templateUrl: './etudiant-list.component.html',
   styleUrl: './etudiant-list.component.css'
 })
-export class EtudiantListComponent implements OnInit, AfterViewInit {
+export class EtudiantListComponent implements OnInit {
   router = inject(Router);
   etudiantService = inject(EtudiantService);
   loaderService = inject(LoaderService);
@@ -94,8 +99,9 @@ export class EtudiantListComponent implements OnInit, AfterViewInit {
     return this.etudiantService.resources;
   }
 
-  getOrganisations() {
+  getEtudiants() {
     this.etudiantService.fetchEtudiants().subscribe((data) => {
+      console.log(data)
       this.dataSource = new MatTableDataSource<any>(data);
       this.dataSource.filterPredicate = this.createFilterPredicate();
       this.length = data.length
@@ -126,25 +132,60 @@ export class EtudiantListComponent implements OnInit, AfterViewInit {
     return active ? '#4caf50' : '#f44336';
   }
 
-  applyFilter(field: 'name' | 'type' | 'status', event: any) {
-    if (field === 'status') {
-      this.filterValues.status = event.value;
-    } else {
-      this.filterValues[field] = (event.value || '').trim();
-    }
-
-    // Update the filter string
-    this.dataSource.filter = JSON.stringify(this.filterValues);
-
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
+  deleteEtudiant(id: string|undefined){
+    Swal.fire({
+      title: 'Suppression',
+      text: 'Voulez-vous vraiment vous supprimer l\'étudiant ?',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Supprimer',
+      cancelButtonText: 'Annuler'
+    }).then((result) => {
+      if (result.value) {
+        this.etudiantService.deleteEtudiant(id ?? "").subscribe({
+          next: (data) => {
+            this.getEtudiants()
+            console.log(data)
+            Swal.fire(
+              'Succès',
+              'Suppression réussie !',
+              'success'
+            )
+          }
+        })
+      }
+    })
   }
 
-  ngAfterViewInit(): void {
+ add() {
+   const dialogRef = this.dialog.open(EtudiantAddUpdateComponent, {
+     width: '600px',
+   });
+
+   dialogRef.afterClosed().subscribe(result => {
+     if (result) {
+       Swal.fire("Enregistrement effectué !")
+       this.getEtudiants()
+     }
+   });
+ }
+
+  edit(data: Etudiant) {
+    const dialogRef = this.dialog.open(EtudiantAddUpdateComponent, {
+      width: '600px',
+      data: data
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        Swal.fire("Enregistrement effectué !")
+        this.getEtudiants()
+      }
+    });
   }
 
   ngOnInit(): void {
+    this.getEtudiants()
   }
 }
 

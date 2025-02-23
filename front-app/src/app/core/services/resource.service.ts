@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, inject, signal } from '@angular/core';
 
 interface IResourceBaseObject {
-  id?: number;
+  id?: string;
 }
 
 type ResourceType<T> = T & IResourceBaseObject;
@@ -34,7 +34,7 @@ export class ResourceService<T> {
     ]);
   };
 
-  protected removeResource = (id: number) => {
+  protected removeResource = (id: string) => {
     this.resources.set(
       this.resources().filter((resource) => resource.id !== id)
     );

@@ -31,13 +31,13 @@ export class EtudiantService extends ResourceService<Etudiant>{
       .get<Etudiant>(baseUrl+ "/"+ id)
   }
 
-  deleteEtudiant(id: number) {
+  deleteEtudiant(id: string) {
     return this.http
       .delete<Etudiant>(`${baseUrl}/${id}`)
       .pipe(tap(() => this.removeResource(id)));
   }
 
-  updateEtudiant(id:number, etudiant: Etudiant) {
+  updateEtudiant(id:string|undefined, etudiant: any) {
     return this.http
       .put<Etudiant>(`${baseUrl}/${id}`, etudiant)
       .pipe(

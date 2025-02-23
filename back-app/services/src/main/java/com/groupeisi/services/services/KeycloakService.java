@@ -39,15 +39,17 @@ public class KeycloakService {
 
     public void updateUser(String userId, User user){
         CredentialRepresentation credential = Credentials.createPasswordCredentials(user.getPassword());
-        UserRepresentation userRepresentation = new UserRepresentation();
-        userRepresentation.setUsername(user.getUserName());
-        userRepresentation.setFirstName(user.getFirstname());
-        userRepresentation.setLastName(user.getLastName());
-        userRepresentation.setEmail(user.getEmailId());
-        userRepresentation.setCredentials(Collections.singletonList(credential));
 
         UsersResource usersResource = KeycloakConfig.getInstance().realm(KeycloakConfig.realm).users();
-        usersResource.get(userId).update(userRepresentation);
+        UserRepresentation existingUser = usersResource.get(userId).toRepresentation();
+
+        existingUser.setUsername(user.getUserName());
+        existingUser.setFirstName(user.getFirstname());
+        existingUser.setLastName(user.getLastName());
+        existingUser.setEmail(user.getEmailId());
+        existingUser.setCredentials(Collections.singletonList(credential));
+
+        usersResource.get(userId).update(existingUser);
     }
 
     public void deleteUser(String userId){
@@ -62,6 +64,6 @@ public class KeycloakService {
 
     public void sendResetPassword(String userId){
         UsersResource usersResource = KeycloakConfig.getInstance().realm(KeycloakConfig.realm).users();
-        usersResource.get(userId).executeActionsEmail(Arrays.asList("UPDATE_PASSWORD"));
+        usersResource.get(userId).executeActionsEmail(List.of("UPDATE_PASSWORD"));
     }
 }

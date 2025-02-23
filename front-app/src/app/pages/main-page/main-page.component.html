@@ -1,7 +1,15 @@
+<mat-toolbar color="primary" *ngIf="isLoggedIn">
+  <span routerLink="/">Settings-App</span>
+  <span class="spacer"></span>
+  <nav>
+    <a mat-button routerLink="/etudiants" routerLinkActive="active-link">Etudiants</a>
+    <!--      <a mat-button routerLink="/produits" routerLinkActive="active-link">Professeurs</a>-->
+  </nav>
+</mat-toolbar>
 <div class="welcome-container">
   <mat-card>
     <mat-card-header class="center-title">
-      <mat-card-title>Bienvenue sur School-App</mat-card-title>
+      <mat-card-title>Bienvenue sur Settings-App</mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <p>

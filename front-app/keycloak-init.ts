@@ -16,5 +16,6 @@ export const initializeKeycloak = (keycloak: KeycloakService) => async () =>
               window.location.origin + '/assets/silent-check-sso.html',
           checkLoginIframe: false
         },
-      bearerExcludedUrls: ['/assets'],
+        bearerPrefix: 'Bearer',
+        bearerExcludedUrls: ['/assets'],
     });

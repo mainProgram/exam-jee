@@ -53,7 +53,7 @@ public class EtudiantServiceTest {
 
     @BeforeEach
     void setUp() {
-        user = new User();
+         user = new User();
         user.setEmailId("test@example.com");
         user.setUserName("test@example.com");
         user.setFirstname("fz");

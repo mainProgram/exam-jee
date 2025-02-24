@@ -3046,3 +3046,48 @@
   "threadPriority" : 5,
   "service" : "exam-jee"
 }
+{
+  "instant" : {
+    "epochSecond" : 1740433986,
+    "nanoOfSecond" : 190933800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Unregistering application SERVICES with eureka with status DOWN",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740433986,
+    "nanoOfSecond" : 207624800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Saw local status change event StatusChangeEvent [timestamp=1740433986205, current=DOWN, previous=UP]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740433986,
+    "nanoOfSecond" : 212356500
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services:8082: registering service...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 95,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}

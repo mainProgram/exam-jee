@@ -3001,3 +3001,33 @@
   "threadPriority" : 5,
   "service" : "exam-jee"
 }
+{
+  "instant" : {
+    "epochSecond" : 1740433133,
+    "nanoOfSecond" : 518039100
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740433434,
+    "nanoOfSecond" : 34264500
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}

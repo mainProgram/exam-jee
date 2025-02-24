@@ -1,6 +1,6 @@
 import { User } from "./UserModel"
 
-export interface Etudiant {
+export interface Professeur {
   user: User
   phoneNumber: string,
   address: string,

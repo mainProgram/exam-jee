@@ -51,4 +51,4 @@ logging:
         web.cors.reactive: TRACE
 
 server:
-  port: 8090
+  port: 8099

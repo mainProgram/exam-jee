@@ -1,0 +1,3033 @@
+{
+  "instant" : {
+    "epochSecond" : 1740428904,
+    "nanoOfSecond" : 758915300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Starting ServicesApplication using Java 17.0.5 with PID 18884 (C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services\\target\\classes started by fazeyna in C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\exam-jee\\back-app\\services)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428905,
+    "nanoOfSecond" : 411356400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428909,
+    "nanoOfSecond" : 935240800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428910,
+    "nanoOfSecond" : 599737700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 627 ms. Found 1 JPA repository interface.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428911,
+    "nanoOfSecond" : 836155800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=f5b667fa-5fe9-38dd-a64b-a7f95d3c8ab0",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428913,
+    "nanoOfSecond" : 708129300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port 8082 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428913,
+    "nanoOfSecond" : 783619200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8082\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428913,
+    "nanoOfSecond" : 789612100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428913,
+    "nanoOfSecond" : 798609800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.34]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428914,
+    "nanoOfSecond" : 188245900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428914,
+    "nanoOfSecond" : 189791900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 8575 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428915,
+    "nanoOfSecond" : 74523000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428915,
+    "nanoOfSecond" : 418942400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.6.5.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428915,
+    "nanoOfSecond" : 579774900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.cache.internal.RegionFactoryInitiator",
+  "message" : "HHH000026: Second-level cache disabled",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428917,
+    "nanoOfSecond" : 222546800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428917,
+    "nanoOfSecond" : 404319200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428918,
+    "nanoOfSecond" : 708714800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59bbf82e",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428918,
+    "nanoOfSecond" : 713746400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428918,
+    "nanoOfSecond" : 993990700
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428919,
+    "nanoOfSecond" : 3814200
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428919,
+    "nanoOfSecond" : 88302800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.orm.connections.pooling",
+  "message" : "HHH10001005: Database info:\n\tDatabase JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']\n\tDatabase driver: undefined/unknown\n\tDatabase version: 8.0\n\tAutocommit mode: undefined/unknown\n\tIsolation level: undefined/unknown\n\tMinimum pool size: undefined/unknown\n\tMaximum pool size: undefined/unknown",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.ConnectionInfoLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428921,
+    "nanoOfSecond" : 985077000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428922,
+    "nanoOfSecond" : 182578400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428923,
+    "nanoOfSecond" : 148413900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.jpa.repository.query.QueryEnhancerFactory",
+  "message" : "Hibernate is in classpath; If applicable, HQL parser will be used.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428924,
+    "nanoOfSecond" : 654477200
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428924,
+    "nanoOfSecond" : 846507100
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder",
+  "message" : "No authenticationProviders and no parentAuthenticationManager defined. Returning null.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428925,
+    "nanoOfSecond" : 918177600
+  },
+  "thread" : "main",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428930,
+    "nanoOfSecond" : 106099400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses RestTemplate.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 335628800
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 443034700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 500942800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 508959200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 536847700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Disable delta property : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 538154300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Single vip registry refresh property : null",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 538154300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Force full registry fetch : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 539691400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application is null : false",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 540719800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Registered Applications size is zero : true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 543394900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Application version is -1: true",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428931,
+    "nanoOfSecond" : 544578200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Getting all instance registry info from the eureka server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 568775500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "The response status is 200",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 572386200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Starting heartbeat executor: renew interval is: 30",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 577770000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.InstanceInfoReplicator",
+  "message" : "InstanceInfoReplicator onDemand update allowed rate per min is 4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 582224200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1740428932580 with initial instances count: 1",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 590318100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application SERVICES with eureka with status UP",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 591842400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Saw local status change event StatusChangeEvent [timestamp=1740428932591, current=UP, previous=STARTING]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 594861900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8082\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 596354100
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services:8082: registering service...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 95,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 653154000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port 8082 (http) with context path '/'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 655311700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8082",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428932,
+    "nanoOfSecond" : 668921200
+  },
+  "thread" : "DiscoveryClient-InstanceInfoReplicator-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "DiscoveryClient_SERVICES/192.168.0.1:services:8082 - registration status: 204",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 95,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740428935,
+    "nanoOfSecond" : 84371700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.groupeisi.services.ServicesApplication",
+  "message" : "Started ServicesApplication in 34.46 seconds (process running for 41.972)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740429231,
+    "nanoOfSecond" : 571809900
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740429531,
+    "nanoOfSecond" : 585630100
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740429831,
+    "nanoOfSecond" : 601136200
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430131,
+    "nanoOfSecond" : 616244600
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430432,
+    "nanoOfSecond" : 584530300
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430504,
+    "nanoOfSecond" : 143647700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430504,
+    "nanoOfSecond" : 149231400
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430504,
+    "nanoOfSecond" : 300436700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 151 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430504,
+    "nanoOfSecond" : 471541900
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430504,
+    "nanoOfSecond" : 555053300
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430508,
+    "nanoOfSecond" : 641932600
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430508,
+    "nanoOfSecond" : 903041700
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430508,
+    "nanoOfSecond" : 906500700
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430509,
+    "nanoOfSecond" : 269322700
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430522,
+    "nanoOfSecond" : 382448400
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430522,
+    "nanoOfSecond" : 386612100
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430522,
+    "nanoOfSecond" : 652973900
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430695,
+    "nanoOfSecond" : 913788100
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430695,
+    "nanoOfSecond" : 913788100
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430696,
+    "nanoOfSecond" : 777895200
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430696,
+    "nanoOfSecond" : 826901700
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430696,
+    "nanoOfSecond" : 826901700
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430698,
+    "nanoOfSecond" : 648629100
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430703,
+    "nanoOfSecond" : 347948700
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430703,
+    "nanoOfSecond" : 352058800
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430704,
+    "nanoOfSecond" : 235819900
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430704,
+    "nanoOfSecond" : 379616200
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430704,
+    "nanoOfSecond" : 383752600
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430704,
+    "nanoOfSecond" : 835346300
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430709,
+    "nanoOfSecond" : 371394400
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430709,
+    "nanoOfSecond" : 375537300
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430709,
+    "nanoOfSecond" : 864132000
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430733,
+    "nanoOfSecond" : 255159200
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430747,
+    "nanoOfSecond" : 932949000
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing PUT /api/v1/etudiants/0acb1719-c310-4023-aece-45df2ec526a4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430747,
+    "nanoOfSecond" : 938559500
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured PUT /api/v1/etudiants/0acb1719-c310-4023-aece-45df2ec526a4",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430750,
+    "nanoOfSecond" : 905092400
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430750,
+    "nanoOfSecond" : 909809700
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "ERROR",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.context.NoSuchMessageException: No message found under code 'user.notfound' for locale 'fr_FR'.] with root cause",
+  "thrown" : {
+    "commonElementCount" : 0,
+    "localizedMessage" : "No message found under code 'user.notfound' for locale 'fr_FR'.",
+    "message" : "No message found under code 'user.notfound' for locale 'fr_FR'.",
+    "name" : "org.springframework.context.NoSuchMessageException",
+    "extendedStackTrace" : [ {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.context.support.AbstractMessageSource",
+      "method" : "getMessage",
+      "file" : "AbstractMessageSource.java",
+      "line" : 162,
+      "exact" : false,
+      "location" : "spring-context-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "com.groupeisi.services.services.EtudiantService",
+      "method" : "getKeycloakUser",
+      "file" : "EtudiantService.java",
+      "line" : 107,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "com.groupeisi.services.services.EtudiantService",
+      "method" : "updateEtudiant",
+      "file" : "EtudiantService.java",
+      "line" : 49,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "com.groupeisi.services.controller.EtudiantController",
+      "method" : "updateEtudiant",
+      "file" : "EtudiantController.java",
+      "line" : 25,
+      "exact" : false,
+      "location" : "classes/",
+      "version" : "?"
+    }, {
+      "module" : "java.base",
+      "moduleVersion" : "17.0.5",
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke0",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : -2,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "module" : "java.base",
+      "moduleVersion" : "17.0.5",
+      "class" : "jdk.internal.reflect.NativeMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "NativeMethodAccessorImpl.java",
+      "line" : 77,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "module" : "java.base",
+      "moduleVersion" : "17.0.5",
+      "class" : "jdk.internal.reflect.DelegatingMethodAccessorImpl",
+      "method" : "invoke",
+      "file" : "DelegatingMethodAccessorImpl.java",
+      "line" : 43,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "module" : "java.base",
+      "moduleVersion" : "17.0.5",
+      "class" : "java.lang.reflect.Method",
+      "method" : "invoke",
+      "file" : "Method.java",
+      "line" : 568,
+      "exact" : false,
+      "location" : "?",
+      "version" : "?"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.method.support.InvocableHandlerMethod",
+      "method" : "doInvoke",
+      "file" : "InvocableHandlerMethod.java",
+      "line" : 257,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.method.support.InvocableHandlerMethod",
+      "method" : "invokeForRequest",
+      "file" : "InvocableHandlerMethod.java",
+      "line" : 190,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod",
+      "method" : "invokeAndHandle",
+      "file" : "ServletInvocableHandlerMethod.java",
+      "line" : 118,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+      "method" : "invokeHandlerMethod",
+      "file" : "RequestMappingHandlerAdapter.java",
+      "line" : 986,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+      "method" : "handleInternal",
+      "file" : "RequestMappingHandlerAdapter.java",
+      "line" : 891,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter",
+      "method" : "handle",
+      "file" : "AbstractHandlerMethodAdapter.java",
+      "line" : 87,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.DispatcherServlet",
+      "method" : "doDispatch",
+      "file" : "DispatcherServlet.java",
+      "line" : 1088,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.DispatcherServlet",
+      "method" : "doService",
+      "file" : "DispatcherServlet.java",
+      "line" : 978,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "processRequest",
+      "file" : "FrameworkServlet.java",
+      "line" : 1014,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "doPut",
+      "file" : "FrameworkServlet.java",
+      "line" : 925,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "jakarta.servlet.http.HttpServlet",
+      "method" : "service",
+      "file" : "HttpServlet.java",
+      "line" : 593,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "6.0"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.FrameworkServlet",
+      "method" : "service",
+      "file" : "FrameworkServlet.java",
+      "line" : 885,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "jakarta.servlet.http.HttpServlet",
+      "method" : "service",
+      "file" : "HttpServlet.java",
+      "line" : 658,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "6.0"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 195,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.websocket.server.WsFilter",
+      "method" : "doFilter",
+      "file" : "WsFilter.java",
+      "line" : 51,
+      "exact" : false,
+      "location" : "tomcat-embed-websocket-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 110,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CompositeFilter$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "CompositeFilter.java",
+      "line" : 108,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy",
+      "method" : "lambda$doFilterInternal$3",
+      "file" : "FilterChainProxy.java",
+      "line" : 231,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 365,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.access.intercept.AuthorizationFilter",
+      "method" : "doFilter",
+      "file" : "AuthorizationFilter.java",
+      "line" : 101,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.access.ExceptionTranslationFilter",
+      "method" : "doFilter",
+      "file" : "ExceptionTranslationFilter.java",
+      "line" : 126,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.access.ExceptionTranslationFilter",
+      "method" : "doFilter",
+      "file" : "ExceptionTranslationFilter.java",
+      "line" : 120,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+      "method" : "doFilter",
+      "file" : "AnonymousAuthenticationFilter.java",
+      "line" : 100,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter",
+      "method" : "doFilter",
+      "file" : "SecurityContextHolderAwareRequestFilter.java",
+      "line" : 179,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.savedrequest.RequestCacheAwareFilter",
+      "method" : "doFilter",
+      "file" : "RequestCacheAwareFilter.java",
+      "line" : 63,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter",
+      "method" : "doFilterInternal",
+      "file" : "BearerTokenAuthenticationFilter.java",
+      "line" : 128,
+      "exact" : false,
+      "location" : "spring-security-oauth2-resource-server-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.authentication.logout.LogoutFilter",
+      "method" : "doFilter",
+      "file" : "LogoutFilter.java",
+      "line" : 107,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.authentication.logout.LogoutFilter",
+      "method" : "doFilter",
+      "file" : "LogoutFilter.java",
+      "line" : 93,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CorsFilter",
+      "method" : "doFilterInternal",
+      "file" : "CorsFilter.java",
+      "line" : 91,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.header.HeaderWriterFilter",
+      "method" : "doHeadersAfter",
+      "file" : "HeaderWriterFilter.java",
+      "line" : 90,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.header.HeaderWriterFilter",
+      "method" : "doFilterInternal",
+      "file" : "HeaderWriterFilter.java",
+      "line" : 75,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.context.SecurityContextHolderFilter",
+      "method" : "doFilter",
+      "file" : "SecurityContextHolderFilter.java",
+      "line" : 82,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.context.SecurityContextHolderFilter",
+      "method" : "doFilter",
+      "file" : "SecurityContextHolderFilter.java",
+      "line" : 69,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter",
+      "method" : "doFilterInternal",
+      "file" : "WebAsyncManagerIntegrationFilter.java",
+      "line" : 62,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.session.DisableEncodeUrlFilter",
+      "method" : "doFilterInternal",
+      "file" : "DisableEncodeUrlFilter.java",
+      "line" : 42,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 374,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy",
+      "method" : "doFilterInternal",
+      "file" : "FilterChainProxy.java",
+      "line" : 233,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.web.FilterChainProxy",
+      "method" : "doFilter",
+      "file" : "FilterChainProxy.java",
+      "line" : 191,
+      "exact" : false,
+      "location" : "spring-security-web-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CompositeFilter$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "CompositeFilter.java",
+      "line" : 113,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.servlet.handler.HandlerMappingIntrospector",
+      "method" : "lambda$createCacheFilter$3",
+      "file" : "HandlerMappingIntrospector.java",
+      "line" : 243,
+      "exact" : false,
+      "location" : "spring-webmvc-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CompositeFilter$VirtualFilterChain",
+      "method" : "doFilter",
+      "file" : "CompositeFilter.java",
+      "line" : 113,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CompositeFilter",
+      "method" : "doFilter",
+      "file" : "CompositeFilter.java",
+      "line" : 74,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy",
+      "method" : "doFilter",
+      "file" : "WebMvcSecurityConfiguration.java",
+      "line" : 238,
+      "exact" : false,
+      "location" : "spring-security-config-6.4.2.jar",
+      "version" : "6.4.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.DelegatingFilterProxy",
+      "method" : "invokeDelegate",
+      "file" : "DelegatingFilterProxy.java",
+      "line" : 362,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.DelegatingFilterProxy",
+      "method" : "doFilter",
+      "file" : "DelegatingFilterProxy.java",
+      "line" : 278,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.RequestContextFilter",
+      "method" : "doFilterInternal",
+      "file" : "RequestContextFilter.java",
+      "line" : 100,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.FormContentFilter",
+      "method" : "doFilterInternal",
+      "file" : "FormContentFilter.java",
+      "line" : 93,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.CharacterEncodingFilter",
+      "method" : "doFilterInternal",
+      "file" : "CharacterEncodingFilter.java",
+      "line" : 201,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.springframework.web.filter.OncePerRequestFilter",
+      "method" : "doFilter",
+      "file" : "OncePerRequestFilter.java",
+      "line" : 116,
+      "exact" : false,
+      "location" : "spring-web-6.2.2.jar",
+      "version" : "6.2.2"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "internalDoFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 164,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.ApplicationFilterChain",
+      "method" : "doFilter",
+      "file" : "ApplicationFilterChain.java",
+      "line" : 140,
+      "exact" : false,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.StandardWrapperValve",
+      "method" : "invoke",
+      "file" : "StandardWrapperValve.java",
+      "line" : 167,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.StandardContextValve",
+      "method" : "invoke",
+      "file" : "StandardContextValve.java",
+      "line" : 90,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.authenticator.AuthenticatorBase",
+      "method" : "invoke",
+      "file" : "AuthenticatorBase.java",
+      "line" : 483,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.StandardHostValve",
+      "method" : "invoke",
+      "file" : "StandardHostValve.java",
+      "line" : 115,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.valves.ErrorReportValve",
+      "method" : "invoke",
+      "file" : "ErrorReportValve.java",
+      "line" : 93,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.core.StandardEngineValve",
+      "method" : "invoke",
+      "file" : "StandardEngineValve.java",
+      "line" : 74,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.catalina.connector.CoyoteAdapter",
+      "method" : "service",
+      "file" : "CoyoteAdapter.java",
+      "line" : 344,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.coyote.http11.Http11Processor",
+      "method" : "service",
+      "file" : "Http11Processor.java",
+      "line" : 397,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.coyote.AbstractProcessorLight",
+      "method" : "process",
+      "file" : "AbstractProcessorLight.java",
+      "line" : 63,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.coyote.AbstractProtocol$ConnectionHandler",
+      "method" : "process",
+      "file" : "AbstractProtocol.java",
+      "line" : 905,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
+      "method" : "doRun",
+      "file" : "NioEndpoint.java",
+      "line" : 1741,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.util.net.SocketProcessorBase",
+      "method" : "run",
+      "file" : "SocketProcessorBase.java",
+      "line" : 52,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.util.threads.ThreadPoolExecutor",
+      "method" : "runWorker",
+      "file" : "ThreadPoolExecutor.java",
+      "line" : 1190,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker",
+      "method" : "run",
+      "file" : "ThreadPoolExecutor.java",
+      "line" : 659,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "classLoaderName" : "app",
+      "class" : "org.apache.tomcat.util.threads.TaskThread$WrappingRunnable",
+      "method" : "run",
+      "file" : "TaskThread.java",
+      "line" : 63,
+      "exact" : true,
+      "location" : "tomcat-embed-core-10.1.34.jar",
+      "version" : "10.1.34"
+    }, {
+      "module" : "java.base",
+      "moduleVersion" : "17.0.5",
+      "class" : "java.lang.Thread",
+      "method" : "run",
+      "file" : "Thread.java",
+      "line" : 833,
+      "exact" : true,
+      "location" : "?",
+      "version" : "?"
+    } ]
+  },
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430751,
+    "nanoOfSecond" : 68210200
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing PUT /error",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430751,
+    "nanoOfSecond" : 69822400
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured PUT /error",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430751,
+    "nanoOfSecond" : 101596600
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430787,
+    "nanoOfSecond" : 938015400
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430788,
+    "nanoOfSecond" : 219152700
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430795,
+    "nanoOfSecond" : 947262100
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430795,
+    "nanoOfSecond" : 991323100
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430795,
+    "nanoOfSecond" : 991323100
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430796,
+    "nanoOfSecond" : 630989400
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430825,
+    "nanoOfSecond" : 382498000
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing POST /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430825,
+    "nanoOfSecond" : 389253400
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured POST /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430826,
+    "nanoOfSecond" : 369896100
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430826,
+    "nanoOfSecond" : 687694200
+  },
+  "thread" : "http-nio-8082-exec-5",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 100,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430826,
+    "nanoOfSecond" : 693407600
+  },
+  "thread" : "http-nio-8082-exec-5",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 100,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430827,
+    "nanoOfSecond" : 337745300
+  },
+  "thread" : "http-nio-8082-exec-5",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 100,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430841,
+    "nanoOfSecond" : 512250100
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430841,
+    "nanoOfSecond" : 514689100
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430841,
+    "nanoOfSecond" : 798346100
+  },
+  "thread" : "http-nio-8082-exec-6",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 101,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430851,
+    "nanoOfSecond" : 973549600
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing PUT /api/v1/etudiants/1518c6a5-1881-4348-bb3b-9134ee4121b6",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430851,
+    "nanoOfSecond" : 975969700
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured PUT /api/v1/etudiants/1518c6a5-1881-4348-bb3b-9134ee4121b6",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430853,
+    "nanoOfSecond" : 105532100
+  },
+  "thread" : "http-nio-8082-exec-7",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 102,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430853,
+    "nanoOfSecond" : 271165500
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430853,
+    "nanoOfSecond" : 273418000
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430853,
+    "nanoOfSecond" : 512046000
+  },
+  "thread" : "http-nio-8082-exec-8",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 103,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430861,
+    "nanoOfSecond" : 944523400
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430861,
+    "nanoOfSecond" : 945521300
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430862,
+    "nanoOfSecond" : 105056500
+  },
+  "thread" : "http-nio-8082-exec-9",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 104,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430862,
+    "nanoOfSecond" : 125015500
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430862,
+    "nanoOfSecond" : 128942300
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430862,
+    "nanoOfSecond" : 306925700
+  },
+  "thread" : "http-nio-8082-exec-10",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 105,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 272116500
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 272116500
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 481486200
+  },
+  "thread" : "http-nio-8082-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 98,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 521095500
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 524869000
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430904,
+    "nanoOfSecond" : 746018300
+  },
+  "thread" : "http-nio-8082-exec-1",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 96,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430920,
+    "nanoOfSecond" : 866225000
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing DELETE /api/v1/etudiants/1518c6a5-1881-4348-bb3b-9134ee4121b6",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430920,
+    "nanoOfSecond" : 872245000
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured DELETE /api/v1/etudiants/1518c6a5-1881-4348-bb3b-9134ee4121b6",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430921,
+    "nanoOfSecond" : 504533400
+  },
+  "thread" : "http-nio-8082-exec-2",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 97,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430921,
+    "nanoOfSecond" : 632901000
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Securing GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430921,
+    "nanoOfSecond" : 632901000
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.FilterChainProxy",
+  "message" : "Secured GET /api/v1/etudiants",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740430921,
+    "nanoOfSecond" : 844545400
+  },
+  "thread" : "http-nio-8082-exec-4",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
+  "message" : "Set SecurityContextHolder to anonymous SecurityContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 99,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740431033,
+    "nanoOfSecond" : 260200800
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740431333,
+    "nanoOfSecond" : 398138200
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740431633,
+    "nanoOfSecond" : 439255400
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740431933,
+    "nanoOfSecond" : 451556500
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740432233,
+    "nanoOfSecond" : 464008200
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740432533,
+    "nanoOfSecond" : 490674000
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740432833,
+    "nanoOfSecond" : 512574300
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740433133,
+    "nanoOfSecond" : 518039100
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
+{
+  "instant" : {
+    "epochSecond" : 1740433434,
+    "nanoOfSecond" : 34264500
+  },
+  "thread" : "AsyncResolver-bootstrap-executor-%d",
+  "level" : "INFO",
+  "loggerName" : "com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver",
+  "message" : "Resolving eureka endpoints via configuration",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 119,
+  "threadPriority" : 5,
+  "service" : "exam-jee"
+}
